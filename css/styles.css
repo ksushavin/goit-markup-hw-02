@@ -51,7 +51,7 @@ body {
 }
 
 .logo-primary {
-  color: var(--primary-text-color);
+  color: #000000;
 }
 .logo-secondary {
   color: var(--white-text-color);
