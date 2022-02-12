@@ -12,14 +12,12 @@
 
   /* Цвет фона */
   --header-background-color: #ffffff;
-  --primary-backgraund-color: #e5e5e5;
   --secondary-backgraund-color: #f5f4fa;
   --dark-background-color: #2f303a;
 }
 
 body {
   font-family: var(--main-font);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -95,7 +93,7 @@ body {
 
 /* Кнопка заказать услугу */
 .hero-btn {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -196,7 +194,7 @@ body {
 .footer {
   background-color: var(--dark-background-color);
 }
-.footer-address-item {
+.footer-address-link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
