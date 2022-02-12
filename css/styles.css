@@ -11,7 +11,7 @@
   --accent-text-color: #2196f3;
 
   /* Цвет фона */
-  --header-background-color: #ffffff;
+  --background-color: #ffffff;
   --secondary-backgraund-color: #f5f4fa;
   --dark-background-color: #2f303a;
 }
@@ -22,6 +22,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  background-color: var(--background-color);
 }
 /* Ховер и фокус для всех ссылок. 
 Оформление ссылок и списков */
@@ -43,7 +44,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-text-color);
   text-decoration: none;
 }
@@ -93,21 +93,19 @@ body {
 
 /* Кнопка заказать услугу */
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-text-color);
   background-color: var(--accent-text-color);
+  cursor: pointer;
 }
 .hero-btn:hover {
   background-color: #188ce8;
-}
-.hero-btn {
-  cursor: pointer;
 }
 
 /* Секция features */
@@ -115,14 +113,12 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
 }
 .feature-text {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
@@ -133,7 +129,6 @@ body {
   font-size: 36px;
   line-height: 1.67;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 .team-names {
@@ -141,24 +136,21 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .team-text {
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
 /* Страница портфолио main */
 /* Фильтр кнопки*/
 .filter-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
@@ -180,7 +172,6 @@ body {
 .projects-text {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 .projects-title:hover,
@@ -198,7 +189,6 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--white-text-color);
 }
 .footer-email,
@@ -206,6 +196,5 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
